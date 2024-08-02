@@ -1,8 +1,8 @@
 # Run Molama on AWS ECS
 
-Ever heard of [Molama](https://hub.docker.com/r/smislam/molama)?  I created that Docker image to make it simpler to run Ollama with an embeded Model.
+Ever heard of [Molama](https://hub.docker.com/r/smislam/molama)?  I created that Docker image to make it simpler to run Ollama with an embedded Model.
 
-In this example we demonstrate deployment of Molama on AWS ECS.  This Molama image includes the Llama3 LLM model embeded within [Ollama](https://ollama.com/).
+In this example we demonstrate deployment of Molama on AWS ECS.  This Molama image includes the Llama3 LLM model embedded within [Ollama](https://ollama.com/).
 
 In addition to Molama, we also use [Open-WebUI](https://openwebui.com) application for model visualization. The Open-WebUi application is exposed using AWS ALB.  These containers are deployed as a Side Car.
 
